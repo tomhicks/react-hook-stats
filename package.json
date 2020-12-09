@@ -1,0 +1,39 @@
+{
+  "name": "react-hook-stats",
+  "version": "1.0.0",
+  "description": "See how you use the built-in React hooks",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomhicks/react-hook-stats"
+  },
+  "bugs": {
+    "url": "https://github.com/tomhicks/react-hook-stats/issues"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "stats"
+  ],
+  "bin": {
+    "react-hook-stats": "./cli.js"
+  },
+  "author": "Tom Hicks",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "chalk": "^4.1.0",
+    "change-case": "^4.1.2",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.11",
+    "@types/yargs": "^15.0.11",
+    "typescript": "^4.1.2"
+  }
+}
