@@ -2,6 +2,7 @@
 
 ## Get stats on your hooks usage like this:
 
+```
 Callback         ████████ 22
 Context          ██ 7
 DebugValue       ▏0
@@ -12,6 +13,7 @@ Memo             ██ 6
 Reducer          ▏0
 Ref              ████████████████████ 56
 State            ██████████████████████████████████████████████████ 136
+```
 
 ## Usage
 
