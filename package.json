@@ -1,6 +1,6 @@
 {
   "name": "react-hook-stats",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "See how you use the built-in React hooks",
   "main": "dist/index.js",
   "scripts": {
