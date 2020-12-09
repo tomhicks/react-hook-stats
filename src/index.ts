@@ -4,9 +4,7 @@ import { collectStats } from "./collect-stats";
 import { drawPng, drawTerminal } from "./draw";
 
 async function main() {
-  console.log(
-    "👍 🐟 Thanks for using react-hook-stats. Please submit issues on GitHub at https://"
-  );
+  console.log("👍 🐟 Thanks for using react-hook-stats!");
   console.log();
 
   const absolutePath = path.resolve(process.cwd(), process.argv[2]);
