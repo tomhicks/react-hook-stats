@@ -37,7 +37,7 @@ export async function collectStats(
 
 async function getStatsForOne(path: string, name: string): Promise<number> {
   return new Promise<number>((resolve) => {
-    cp.exec(`grep -ro ${name} ${path} | wc -w`, (err, r) => {
+    cp.exec(`grep -rv 'import' ${path} | grep -o ${name} | wc -w`, (err, r) => {
       resolve(parseInt(r.trim(), 10));
     });
   });
